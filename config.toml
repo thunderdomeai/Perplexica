@@ -1,0 +1,11 @@
+[GENERAL]
+PORT = 3001 # Port to run the server on
+SIMILARITY_MEASURE = "cosine" # "cosine" or "dot"
+KEEP_ALIVE = "5m" # How long to keep Ollama models loaded into memory. (Instead of using -1 use "-1m")
+
+[API_KEYS]
+OPENAI = "sk-svcacct-kZXLKN26GdnEWSucH5zTT3BlbkFJleSI3XYgUPprOCRwP40n" # OpenAI API key - sk-1234567890abcdef1234567890abcdef
+GEMINI = "AIzaSyArAaw7axrQkHbSX5gykmMgdyu0M4ZuEbo" # Gemini API key - sk-1234567890abcdef1234567890abcdef
+
+[API_ENDPOINTS]
+SEARXNG = "https://eladsearngx-w4o7wofqcq-nn.a.run.app/" # SearxNG API URL
